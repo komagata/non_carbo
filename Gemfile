@@ -1,4 +1,5 @@
 source 'https://rubygems.org'
+ruby '2.1.5'
 
 gem 'rails', '4.2.0'
 gem 'pg'
@@ -11,6 +12,7 @@ gem 'jquery-rails'
 gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
 gem 'bcrypt', '~> 3.1.7'
+gem 'rails_12factor'
 
 group :development, :test do
   gem 'pry-byebug'
